@@ -7,7 +7,9 @@ Java notes compiled in
 4. Compilation & Execution of Java program
 
 ## Introduction in Java.
-Java programming language is Object oriented programming language(OOP).
+Java programming language is a high level  Object-oriented programming language(OOP) that was developed by James Gosling along with Mike Sheridan and Patrick Naughton, at **Sun Microsystems** in the early 1990's.
+
+The java latest version is **Java SE 23**(as of Sept 2024)
 
 
  
