@@ -6,6 +6,8 @@ Java notes compiled in
 3. Java program structure
 4. Compilation & Execution of Java program
 
+## Introduction in Java.
+Java programming language is Object oriented programming language(OOP).
 
 
  
