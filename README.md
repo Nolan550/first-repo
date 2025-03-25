@@ -32,7 +32,7 @@ Here are the general applications of Java programming language
 - Game development 
 - Database connection
 - Cloud based applications
-* [Significance of Java Programming Language](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-java-sockets/?ref=next_article_top)
+* [Significance of Java Programming Language](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-java/?ref=ml_lbp)
 ```bash
 
 
