@@ -7,7 +7,7 @@ Java notes compiled in
 4. Compilation & Execution of Java program
 
 ## Introduction to Java.
-Java programming language is a high-level  Object-oriented programming language(OOP) that was developed by James Gosling along with Mike Sheridan and Patrick Naughton, at **Sun Microsystems** in the early 1990's.
+Java programming language is a high-level  Object-oriented programming language(OOP) that was developed by James Gosling along with Mike Sheridan and Patrick Naughton at **Sun Microsystems** in the early 1990s.
 
 The java latest version is **Java SE 23**(as of Sept 2024)
 
@@ -43,8 +43,8 @@ Here are the general applications of the Java programming language
   This is the Java programming language compiler that is used to compile Java source code into bytecode.
 
 4. *Java Development Kit(JDK)*:
-  is a complete software development kit that is used to develop Java applications. It includes the necessary components that are required for Java programming language such as Java Runtime Enviroment(JRE), 
-  Development tools like javac and javadoc, libraries like **java.lang, java.util**.
+   Is a complete software development kit that is used to develop Java applications. It includes the necessary components that are required for Java programming language, such as Java Runtime Environment (JRE), 
+  Development tools like javac and javadoc, as well as libraries like **java.lang, java.util**.
 
 5. *JRE (Java Runtime Environment)*:
  is a subset of the JDK and is required to run Java applications.
@@ -52,18 +52,18 @@ Here are the general applications of the Java programming language
 - In short, the JRE is for running Java applications. If you're only interested in running Java programs (not developing them), you only need the JRE.
 
 6. *Java Virtual Machine(JVM)*:
-is the part of the Java runtime enviroment that is responsible for executing Java bytecode.
+Is  the part of the Java runtime environment that is responsible for executing Java bytecode.
 
 7. *Package*:
-is the namespace for organizing classes and interfaces. eg. java.util, com.mycompany.app
+Is the namespace for organizing classes and interfaces. eg, java.util, com.mycompany.app
 
-8. *Library*
-- Libray is the collection of pre-written code, functions, or classes that can be used in your project.
+8. *Library*:
+- A library is a collection of pre-written code, functions, or classes that can be used in your project.
 - Libraries help developers by providing reusable code, thus saving time and effort. Eg.lava.io, Swing
 
 9. *Framework*
-- It is a set of tools, libraries, and best practices that provide a foundation for developers to build applications.Frameworks often follow certain architectural patterns (like MVC).
-- a framework is a pre-built collection of classes, libraries, tools, and conventins that provide a structured foundation to support the development of Java applications.
+- It is a set of tools, libraries, and best practices that provide a foundation for developers to build applications. Frameworks often follow certain architectural patterns (like MVC).
+- A framework is a pre-built collection of classes, libraries, tools, and conventions that provide a structured foundation to support the development of Java applications.
 - Examples: Spring, Hibernate
 
 
@@ -76,17 +76,17 @@ is the namespace for organizing classes and interfaces. eg. java.util, com.mycom
 ### Basic rules of Java syntax
 - *Case senstivity*:Java is case-senstive meaning that **Variable** and **variable** are treated as two different identifiers.
 - *Statements*: A Java statementgenerally ends with a semicolon(;)
-- *Whitespace*: Whitespace(spaces,tabs,newlines) is ignored by the compiler, but it is used to separate tokens(identifiers,operators ,etc.).
-*Identifiers*: An identifier is a name given to variables,methods,classes.etc. It must start with a letter(a-z,A-Z), dollar sign($), or underscore(_), followed by letters, numbers
+- *Whitespace*: Whitespace(spaces, tabs, newlines) is ignored by the compiler, but it is used to separate tokens(identifiers, operators,etc).
+*Identifiers*: An identifier is a name given to variables, methods, classes, etc. It must start with a letter(a-z,A-Z), dollar sign($), or underscore(_), followed by letters, numbers
 - *Comments*: Java supports single-line comments(//) and multi-line comments(/**/).
 
 2. ### **Semantics**
-- Semantics refers to the meaning behind the syntax, how Java constructs and operations are interpreted during execution. While syntax focuses on how something is written, semantics concerns what it does.
+- Semantics refers to the meaning behind syntax and how Java constructs and operations are interpreted during execution. While syntax focuses on how something is written, semantics concerns what it does.
 
-- Semantics defines what the code actually does when executed , including variable scope, type behavior, and runtime behavior.
+- Semantics defines what the code actually does when executed, including variable scope, type behavior, and runtime behavior.
 
 **For example:**
-Variables- Java varaiables must be declared with the type(e.g String, int,float), and they hold data.
+Variables- Java variables must be declared with the type(e.g, String, int, float), and they hold data.
 ```java
 int a = 43;
 String name ="Peter";
@@ -98,11 +98,11 @@ Semantics: **a** is an **integer** variable holding the value 43, and **name** i
 A Java program typically includes several components such as imports, classes, methods, and statements. Here is the basic structure of a simple Java program:
 
 a. **Package declaration(optional)**
-It can begin with a package declaration, which helps organize the code into different namespaces. This is optional and depends on how your code is structured in different directories. eg. package mypackage;
+It can begin with a package declaration, which helps organize the code into different namespaces. This is optional and depends on how your code is structured in different directories. eg, package mypackage;
 
 b. **Import statements(optional)**
 You can import other classes or libraries that you need for your program. If you're using classes from Java's standard library or external libraries, you'll use the import keyword.
-eg. import java.util.Scanner;
+eg, import java.util.Scanner;
 
 c. **Class declaration**
 The class is a blueprint for creating objects. The class name must match the filename (e.g., if the class is Main, the file must be named Main.java).
@@ -127,30 +127,30 @@ public static void main(String[] args){
 e.  **Statements and logic**
 Inside the main method, you write your program's logic, such as variable declarations, conditionals, loops, and method calls.
 
-**Here is a simple basic Java program that prints"Hello,World!" to the console:**
+**Here is a simple basic Java program that prints"Hello, World!" to the console:**
 ```java
 public class HelloWorld{
   public static void main(String[] args){
-    System.out.println("Hello,World!");
+    System.out.println("Hello, World!");
   }
 }
 ```
 **Explanation**
 1. public class HelloWorld{...}
 - This is the definition of a Java class named **HelloWorld**.
-- In Java, every application must have atleast one class, and it is conventionally named the same as the file(in the case, *HelloWorld.java*).
+- In Java, every application must have at least one class, and it is conventionally named the same as the file(in this case, *HelloWorld.java*).
 
 2. public static void main(String[] args){..}
 - This is the entry point of the program. The *main* method is where the execution of the program begins.
 - **public**: This means that the method can be accesed from anywhere(it's publicly accessible).
 - **static**: This means that the method can be run without creating an instance(object) of the class.
 - **void**: This means the method does not return any value.
-- **string[] args**: This is an array of Strings that allows command-line argumentsto be passed to the program(though we don't use it in this simple example).
+- **string[] args**: This is an array of Strings that allows command-line arguments to be passed to the program(though we don't use it in this simple example).
  3. System.out.println("Hello");
- - **System**: A built-in Java class that providesaccess to system resources.
-  - **out**: This is an abject of printstream class, which is used for printing data to the console(standard output).
-  - **println**:This method prints the argument(in this case, the string "Hello") followed by a newline, meaning it moves the cursor to the next line after printing.
-  - **"Hello"**:This is the string that will be printed to the console.
+ - **System**: A built-in Java class that provides access to system resources.
+  - **out**: This is an object of the printstream class, which is used for printing data to the console(standard output).
+  - **This method prints the argument(in this case, the string "Hello") followed by a newline, meaning it moves the cursor to the next line after printing.
+  - **"Hello"**: This is the string that will be printed to the console.
 
 ## Compilation & Execution of Java program
 - Make sure you have the Java Development Kit(JDK) installed on your machine. You can download it from the [Oracle Website](https://www.oracle.com/java/technologies/downloads/)
@@ -161,7 +161,7 @@ a. **Compiling and running a Java program using CMD**
  * **Step 2** - Compile your program, use the **javac** command followed by the filename(Command: javac HelloWorld.java).
  * **Step 3** - Run it with the **java** command(without the .class extension)(Command: java HelloWorld).
 
- **Output:** Hello,World!
+ **Output:** Hello, World!
 
 b. **Compiling and running a Java program using an IDE**
 - **Step 1** - Create new project.
@@ -169,7 +169,7 @@ b. **Compiling and running a Java program using an IDE**
 - **Step 3** - In the newly created HelloWorld.java file. write your program.
 - **Step 4** - Click the Run button to run your program.
 
-**Output:** Hello,World!
+**Output:** Hello, World!
 
 
 
